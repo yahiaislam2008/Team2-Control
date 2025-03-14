@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{34695513-5765-4E3A-8FE8-E8FBA4107BA6}|Army Game\\Army Game.vcxproj|C:\\Users\\CAVO TECH\\Desktop\\Team2_control\\Team2-Control\\Army Game\\Army Game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{34695513-5765-4E3A-8FE8-E8FBA4107BA6}|Army Game\\Army Game.vcxproj|solutionrelative:Army Game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34695513-5765-4E3A-8FE8-E8FBA4107BA6}|Army Game\\Army Game.vcxproj|C:\\Users\\CAVO TECH\\Desktop\\Team2_control\\Team2-Control\\Army Game\\Army Game\\ArmyUnit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{34695513-5765-4E3A-8FE8-E8FBA4107BA6}|Army Game\\Army Game.vcxproj|solutionrelative:Army Game\\ArmyUnit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArmyUnit.cpp",
+              "DocumentMoniker": "C:\\Users\\CAVO TECH\\Desktop\\Team2_control\\Team2-Control\\Army Game\\Army Game\\ArmyUnit.cpp",
+              "RelativeDocumentMoniker": "Army Game\\ArmyUnit.cpp",
+              "ToolTip": "C:\\Users\\CAVO TECH\\Desktop\\Team2_control\\Team2-Control\\Army Game\\Army Game\\ArmyUnit.cpp",
+              "RelativeToolTip": "Army Game\\ArmyUnit.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T00:50:26.606Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,9 +45,9 @@
               "RelativeDocumentMoniker": "Army Game\\Main.cpp",
               "ToolTip": "C:\\Users\\CAVO TECH\\Desktop\\Team2_control\\Team2-Control\\Army Game\\Army Game\\Main.cpp",
               "RelativeToolTip": "Army Game\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T20:41:49.625Z",
+              "WhenOpened": "2025-03-13T22:39:29.709Z",
               "EditorCaption": ""
             }
           ]
