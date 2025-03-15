@@ -18,18 +18,24 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArmyUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Soldier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ArmyUnit.cpp">
+    <ClCompile Include="Archer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArmyUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Soldier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ArmyUnit.h">
+    <ClInclude Include="Archer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
