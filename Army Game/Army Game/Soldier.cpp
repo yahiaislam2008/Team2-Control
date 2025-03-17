@@ -1,39 +1,44 @@
 #include "Soldier.h"
 #include <iostream>
 using namespace std;
-//impleminting class 
+
+
+Soldier::Soldier(string na, int da) : ArmyUnit(na, da), name(na), damage(da) {}
+
+ 
 
 void Soldier::Attack()
 {
-	cout << name << " Attacking\n";
+    cout << name << " Attacking\n";
 }
 
 void Soldier::Defend()
 {
-	cout << name << " Defending\n";
+    cout << name << " Defending\n";
+}
+
+void Soldier::Report() {
+
+    cout << "Soldier Name: " << name << "\nDamage Value: " << damage << "\n";
+    
 }
 
 
-void Soldier::Report()
+void Soldier::SpecialAbility()
 {
-	cout << "name: " << name << "\ndamage value: " << damage << "\n";
+    cout << "Soldier uses special ability: Shield Block!" << endl;
 }
 
-//commands that will be taken from the Army
+
 void Soldier::executeCommand(int command)
 {
-	if (command == 1) Attack();
-	else if (command == 2) Defend();
-	else if (command == 3) Report();
-}
-
-Soldier::Soldier(string na, int da) :name(na), damage(da)
-{
-}
-
-Soldier::~Soldier()
-{
+    if (command == 1)
+        Attack();
+    else if (command == 2)
+        Defend();
+    else if (command == 3)
+        Report();
 }
 
 
-
+Soldier::~Soldier() {}

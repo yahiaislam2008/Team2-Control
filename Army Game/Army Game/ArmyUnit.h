@@ -1,16 +1,16 @@
 #pragma once
+#include <string>
+
 using namespace std;
 
-//Parent class fo units
-class ArmyUnit
-{
+class ArmyUnit {
+protected:
+    string name;
+    int damage;
+
 public:
-	virtual void executeCommand(int command)=0;
-	virtual void Report() = 0;
-	~ArmyUnit();
-
-
+    ArmyUnit(string na, int da); 
+    virtual void executeCommand(int command) = 0;
+    virtual void Report() = 0;
+    virtual ~ArmyUnit();  
 };
-
-
-
