@@ -129,13 +129,19 @@
   <ItemGroup>
     <ClCompile Include="Archer.cpp" />
     <ClCompile Include="ArmyUnit.cpp" />
+    <ClCompile Include="Defender.cpp" />
+    <ClCompile Include="Knight.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Soldier.cpp" />
+    <ClCompile Include="Wizard.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Archer.h" />
     <ClInclude Include="ArmyUnit.h" />
+    <ClInclude Include="Defender.h" />
+    <ClInclude Include="Knight.h" />
     <ClInclude Include="Soldier.h" />
+    <ClInclude Include="Wizard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
