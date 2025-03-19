@@ -23,6 +23,7 @@ void Archer::Defend()
 	cout << name << " dodges and finds cover!\n";
 }
 
+
 Archer::Archer() : Soldier("Archer", 50)
 {
 }
