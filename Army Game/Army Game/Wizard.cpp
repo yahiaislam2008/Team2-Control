@@ -2,27 +2,21 @@
 #include <iostream>
 using namespace std;
 
-void Wizard::SpecialAbility()
-{
-	cout << "Special Ability -> adapt the field using magic spells!\n";
+Wizard::Wizard() : Soldier("Wizard", 30) {}
+
+void Wizard::Attack() {
+    cout << name << " casts fireballs!\n";
 }
 
-void Wizard::Report()
-{
-	cout << name << " is standing by.\n";
-	Wizard::SpecialAbility();
+void Wizard::Defend() {
+    cout << name << " conjures a magical shield!\n";
 }
 
-void Wizard::Attack()
-{
-	cout << name << " casts fire balls\n";
+void Wizard::SpecialAbility() {
+    cout << "Special Ability -> Wizard adapts the battlefield using magic spells!\n";
 }
 
-void Wizard::Defend()
-{
-	cout << name << " getting a magical shield!\n";
-}
-
-Wizard::Wizard() : Soldier("Wizard" , 30)
-{
+void Wizard::Report() {
+    cout << name << " is standing by.\n";
+    SpecialAbility();
 }

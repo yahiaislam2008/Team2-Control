@@ -1,17 +1,13 @@
 #pragma once
 #include "Soldier.h"
+#include "ArmyUnit.h"
 
-class Wizard : public Soldier
-{
+class Wizard : public Soldier {
 public:
-	virtual void SpecialAbility();
-	virtual void Report();
-	virtual void Attack();
-	virtual void Defend();
-	Wizard();
-	
+    Wizard();
 
-private:
-
+    void Attack() override;
+    void Defend() override;
+    void SpecialAbility() override;
+    void Report() override;
 };
-

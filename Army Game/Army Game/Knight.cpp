@@ -1,27 +1,22 @@
 #include "Knight.h"
 #include <iostream>
 using namespace std;
-void Knight::SpecialAbility()
-{
-	cout << "Special Ability -> The Knight flanks through army!\n";
+
+Knight::Knight() : Soldier("Knight", 80) {}
+
+void Knight::Attack() {
+    cout << name << " charges forward with a sword!\n";
 }
 
-void Knight::Report()
-{
-	cout << name << " is standing by.\n";
-	Knight::SpecialAbility();
+void Knight::Defend() {
+    cout << name << " raises the shield to block attacks!\n";
 }
 
-void Knight::Attack()
-{
-	cout << name << " Chargers forward\n";
+void Knight::SpecialAbility() {
+    cout << "Special Ability -> The Knight flanks through the enemy army!\n";
 }
 
-void Knight::Defend()
-{
-	cout << name << " raising the shield \n";
-}
-
-Knight::Knight() :Soldier("Knight", 80)
-{
+void Knight::Report() {
+    cout << name << " is standing by.\n";
+    SpecialAbility();
 }

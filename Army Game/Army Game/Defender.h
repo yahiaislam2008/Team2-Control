@@ -1,12 +1,11 @@
 #pragma once
 #include "Soldier.h"
-class Defender :public Soldier
-{
+#include "ArmyUnit.h"
+class Defender : public Soldier {
 public:
-	virtual void SpecialAbility();
-	virtual void Report();
-	virtual void Defend();
-	Defender();
-private:
+    Defender();
 
+    void Defend() override;
+    void SpecialAbility() override;
+    void Report() override;
 };

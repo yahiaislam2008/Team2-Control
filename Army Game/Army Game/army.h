@@ -10,5 +10,6 @@ public:
     void addUnit(ArmyUnit* unit); 
     void executeCommand(int command); 
     void reportAll();  
+    bool isEmpty() const;  
     ~Army();  
 };

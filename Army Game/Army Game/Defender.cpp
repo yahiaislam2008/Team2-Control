@@ -2,22 +2,17 @@
 #include <iostream>
 using namespace std;
 
-void Defender::SpecialAbility()
-{
-	cout << "Defending the Army" << "\n";
+Defender::Defender() : Soldier("Defender", 20) {}
+
+void Defender::Defend() {
+    cout << name << " is defending and absorbing attacks!\n";
 }
 
-void Defender::Report()
-{
-	cout << name << " is standing by.\n";
-	Defender::SpecialAbility();
+void Defender::SpecialAbility() {
+    cout << "Special Ability -> Defender strengthens the army’s defense!\n";
 }
 
-void Defender::Defend()
-{
-	cout << name << " Defending and absorbing attacks\n";
-}
-
-Defender::Defender() :Soldier("Guardian" , 20)
-{
+void Defender::Report() {
+    cout << name << " is standing by.\n";
+    SpecialAbility();
 }
